@@ -1,11 +1,11 @@
 <div align="center">
 <img src="./docs/images/icon.svg" alt="icon"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
 English / [简体中文](./README_CN.md)
 
-One-Click to get well-designed cross-platform ChatGPT web UI.
+One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
 
 One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
@@ -22,8 +22,8 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
 - Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- Fully compatible with self-deployed llms, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
-- Privacy first, all data stored locally in the browser
+- Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
+- Privacy first, all data is stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
 - Responsive design, dark mode and PWA
 - Fast first screen loading speed (~100kb), support streaming response
@@ -133,6 +133,14 @@ Azure Api Key.
 ### `AZURE_API_VERSION` (optional)
 
 Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+
+### `GOOGLE_API_KEY` (optional)
+
+Google Gemini Pro Api Key.
+
+### `GOOGLE_URL` (optional)
+
+Google Gemini Pro Api Url.
 
 ### `HIDE_USER_API_KEY` (optional)
 

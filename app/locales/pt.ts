@@ -1,10 +1,10 @@
 import { SubmitKey } from "../store/config";
-import { LocaleType } from "../locales/index";
+import { PartialLocaleType } from "../locales/index";
 import { getClientConfig } from "../config/client";
 
 const isApp = !!getClientConfig()?.isApp;
 
-const pt: LocaleType = {
+const pt: PartialLocaleType = {
   WIP: "Em breve...",
   Error: {
     Unauthorized: isApp
@@ -311,7 +311,7 @@ const pt: LocaleType = {
           SubTitle: "Exemplo: ",
         },
 
-        ApiVerion: {
+        ApiVersion: {
           Title: "Versão API Azure",
           SubTitle: "Verifique sua versão API do console Azure",
         },
